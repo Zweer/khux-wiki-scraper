@@ -1,0 +1,10 @@
+{
+  "domain": "http://www.khunchainedx.com",
+  "pages": [
+    "/wiki/Category:Magic_Medals",
+    "/wiki/Category:Power_Medals",
+    "/wiki/Category:Speed_Medals"
+  ],
+
+  "linkSelector": ".mw-category"
+}

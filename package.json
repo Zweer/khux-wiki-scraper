@@ -1,0 +1,33 @@
+{
+  "name": "khux-wiki-scraper",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zweer/khux-wiki-scraper.git"
+  },
+  "author": "Niccolò Olivieri <niccolo@olivieriachille.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zweer/khux-wiki-scraper/issues"
+  },
+  "homepage": "https://github.com/Zweer/khux-wiki-scraper#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.4.14",
+    "grunt": "^1.0.1",
+    "grunt-aws-lambda": "^0.13.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1"
+  },
+  "bundledDependencies": [
+    "cheerio",
+    "request",
+    "request-promise"
+  ]
+}
